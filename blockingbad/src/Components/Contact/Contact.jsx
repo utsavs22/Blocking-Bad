@@ -10,7 +10,7 @@ function Contact() {
       <div class="container">
         <div class="card">
           <img src="https://media-exp1.licdn.com/dms/image/C5603AQGJywWNf78iWQ/profile-displayphoto-shrink_800_800/0/1649757780981?e=1661385600&v=beta&t=_HJYdkvZY9mv8GaKnLT-mub53T7PjXOSQGd92vIc-u0" alt="Person" class="card__image"/>
-          <p class="card__name">Utsav Sinha<br/><font size="4"><i>Full Stack Developer</i></font></p>
+          <p class="card__name">Utsav Sinha<br/><font size="3"><i>2nd Year B.E student</i></font><br/><font size="4"><i>Full Stack Developer</i></font></p>
           <div class="grid-container">
           </div>
           <ul class="social-icons">
@@ -21,7 +21,7 @@ function Contact() {
         </div>
         <div class="card">
           <img src="https://media-exp1.licdn.com/dms/image/C5603AQGBEdfyAtlQ7A/profile-displayphoto-shrink_800_800/0/1634502615650?e=1661385600&v=beta&t=76zYl6G3JU57eTKKDCRk4H3wc5_j22X8Lr-QTCkYh0k" alt="Person" class="card__image"/>
-          <p class="card__name">Saishwar Anand<br/><font size="4"><i>Full Stack Developer</i></font></p>
+          <p class="card__name">Saishwar Anand<br/><font size="3"><i>2nd Year B.E student</i></font><br/><font size="4"><i>Full Stack Developer</i></font></p>
           <div class="grid-container">
         </div>
           <ul class="social-icons">

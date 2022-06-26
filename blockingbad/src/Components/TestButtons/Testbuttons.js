@@ -20,6 +20,8 @@ function Testbuttons() {
  const [classname7,setClassname7] = useState("white");
  const [classname8,setClassname8] = useState("white");
 
+ const [downloadMessage,setDownloadMessage] = useState("Create and Download File")
+
   const websiteAdd = (i,element) =>{
     if(boolArr[i] === false){
       web_set.add(element);
@@ -152,6 +154,7 @@ function Testbuttons() {
       const resp = await axios.post(url,{web_arr:arr});
       console.log(resp.data);
       web_set.clear();
+      setDownloadMessage("Your download will start shortly")
 
       setTimeout(() => {
         try {
@@ -168,6 +171,10 @@ function Testbuttons() {
       }
        
       },3000)
+
+      setTimeout(() => {
+        setDownloadMessage("Create and Download File")
+      }, 3000);
     } catch (error) {
       console.log(error.response);
     }
@@ -206,8 +213,8 @@ function Testbuttons() {
           <input type="text" id="custom_url" ref = {inputText} placeholder='Enter website name or url' />
               <button onClick={addCustomUrl} id="custom_url_add_button">Add Website</button>
         </div>
-            <div className='candd'>
-              <button onClick={on_createfile} id="create_download">Create and Download File</button>
+            <div className='candd ' style={{marginRight:"auto",marginLeft:"auto"}}>
+              <button onClick={on_createfile} id="create_download">{downloadMessage}</button>
             </div>
     </div>
   )

@@ -6,21 +6,34 @@
 }
 #heading_how_div{
     align-items: center;
-    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8em;
+    /* width: 20vw; */
 }
 #heading_how{
     /* background-color: green; */
     position: relative;
-    top: 9rem;
-    left: 38rem;
+    font-size: 2.6em;
+    /* top: 9rem; */
+    /* left: 42rem; */
     color: wheat;
+    background: rgb(87,123,221);
+    background: linear-gradient(90deg, rgba(87,123,221,1) 0%, rgba(252,125,33,1) 46%,  rgba(252,125,33,1)  60%);
+  
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -moz-text-fill-color: transparent;
 }
 .how_to_use {
-    min-width: 50vw;
-    min-height: 65vh;
+    max-width: 60vw;
+    /* min-height: 65vh; */
     text-align: center;
     vertical-align: middle;
-    margin: 22vh 40vh 50vh 47vh;
+    /* margin: 22vh 40vh 50vh 47vh; */
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50px;
     position: relative;
     box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
@@ -47,7 +60,7 @@
     /* display: flex; */
     /* justify-content: center; */
     text-align: left;
-    color: white;
+    color: wheat;
     font-size: 18px;
     line-height:32px;
     margin-left: 30px;

@@ -5,21 +5,33 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
 #buttons_heading{
-    color: wheat;
+    /* color: wheat; */
     position: relative;
     top:13rem;
     left: 1rem;
+    background: rgb(87,123,221);
+    background: linear-gradient(90deg, rgba(87,123,221,1) 0%, rgba(252,125,33,1) 46%,  rgba(252,125,33,1)  60%);
+  
+    -webkit-background-clip: text;
+     -moz-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     -moz-text-fill-color: transparent;
 }
 .buttons{
     margin-top: 15em;
     display: grid;
-    grid-template-columns: repeat(3, 14vw);
-    justify-content:space-between;
-    width: 50vw;
+    grid-template-columns: repeat(3, 14vw);    justify-content:space-between;
+
+    width: 60vw;
+    margin-right: 20vw;
+    margin-left: 20vw;
     gap: 0px 100px;
     color: wheat;
+   
     
 }
 
@@ -264,8 +276,8 @@ button:nth-child(9):hover{
     border-radius: 2rem;
     background-color: wheat;
     border: 2px solid rgb(255, 106, 0);
-    width: 17vw;
-    height: 3.5vh;
+    max-width: 17vw;
+    max-height: 3.5vh;
     /* display: block; */
     /* border-bottom: 0.3rem solid transparent; */
     transition: all 0.3s;
@@ -322,3 +334,58 @@ button:nth-child(9):hover{
 .orange{
     color:orange
 }
+
+
+
+@media only screen and (max-width: 1177px) {
+    .buttons{
+        margin-top: 15em;
+        display: grid;
+        grid-template-columns: repeat(2, 14vw);    justify-content:space-between;
+    
+        width: 60vw;
+        margin-right: 20vw;
+        margin-left: 20vw;
+        gap: 0px 70px;
+        color: wheat;
+       
+        
+    }
+
+    #you , #face,#dis,#prime,#net,#voo,#sony,#hot,#insta{
+        position: relative;
+        font-size: 22px;
+        margin-left: 44px;
+        bottom:18px;
+    }
+   
+  }
+
+  @media only screen and (max-width: 600px) {
+    #custom_url,#custom_url_add_button{
+        /* display: flex; */
+      
+        max-width: 50vw;
+        max-height: 5.5vh;
+ 
+    }
+
+    #create_download{
+        max-width: 85vw;
+        max-height: 12.5vh;
+    }
+
+    }
+  @media only screen and (max-width: 480px) {
+  
+    
+
+    #create_download{
+        max-width: 90vw;
+        max-height: 6.5vh;
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+
+    }
