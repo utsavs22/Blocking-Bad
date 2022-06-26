@@ -40,7 +40,6 @@ function Landing() {
               typewriter
               .typeString("Hello There !!")
               .pauseFor(500)
-              // .typeString("<br>It's me, <span style= 'background: linear-gradient(90deg, rgba(87,123,221,1) , rgba(252,125,33,1) );   -webkit-background-clip: text;-moz-background-clip: text;-webkit-text-fill-color: transparent;-moz-text-fill-color: transparent;'> Blocking Bad </span>")
               .typeString("<br>It's me, <span style= 'color:#fc7c21'> Blocking Bad </span>")
               .pauseFor(800)
               .typeString("<br>I can help you with blocking<br>unwanted sites for your children and<br>")

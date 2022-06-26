@@ -4,13 +4,15 @@ import axios from 'axios'
 import fileDownload from "js-file-download"
 const url = 'http://localhost:8000/api/routes'
 
+ // Declared a set to contain all the url domainx names
   let web_set = new Set();
   let boolArr = [false,false,false,false,false,false,false,false,false];
 
-function Testbuttons() {
 
+
+function Testbuttons() {
   
-  const [classname0,setClassname0] = useState("white");
+ const [classname0,setClassname0] = useState("white");
  const [classname1,setClassname1] = useState("white");
  const [classname2,setClassname2] = useState("white");
  const [classname3,setClassname3] = useState("white");
@@ -20,8 +22,9 @@ function Testbuttons() {
  const [classname7,setClassname7] = useState("white");
  const [classname8,setClassname8] = useState("white");
 
- const [downloadMessage,setDownloadMessage] = useState("Create and Download File")
+ const [downloadMessage,setDownloadMessage] = useState("Create and Download File") 
 
+  // function to add element to the set and also updates boolArray accordingly
   const websiteAdd = (i,element) =>{
     if(boolArr[i] === false){
       web_set.add(element);
@@ -37,6 +40,7 @@ function Testbuttons() {
   }
 
 
+  // function to update the button color inorder to show if selected or not
   function buttonUpdate(i) {
 
     switch(i) {
@@ -109,14 +113,18 @@ function Testbuttons() {
     }
 
    }
-  const add_web = (i,element) =>{
+
+   //function to handle both the above functions on button click
+   const add_web = (i,element) =>{
     websiteAdd(i,element);
     buttonUpdate(i);
   }
 
   
 
-  let inputText = useRef(null);
+  let inputText = useRef(null);  // provided reference to the input tag in the component
+
+  //function to handle custom url/website input from the user
   const addCustomUrl = () =>{
     if(inputText.current.value.includes(".")){
       let url = inputText.current.value;
@@ -130,7 +138,7 @@ function Testbuttons() {
       else 
       web_set.add(websiteArr[1]);
      
-      inputText.current.value = "Element added Successfully"
+      inputText.current.value = "Input Received"
       setTimeout(() => {
         inputText.current.value = ""
        
@@ -138,7 +146,7 @@ function Testbuttons() {
     }
     else{
      web_set.add(inputText.current.value);
-     inputText.current.value = "Element added Successfully"
+     inputText.current.value = "Input Received"
      setTimeout(() => {
       inputText.current.value = ""
       
@@ -146,6 +154,8 @@ function Testbuttons() {
     }
   }
 
+
+  // function to handle post and get request to and from the backend
   const on_createfile = async (e) => {
     let arr =Array.from(web_set)
     e.preventDefault();

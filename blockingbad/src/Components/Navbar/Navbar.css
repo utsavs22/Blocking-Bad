@@ -1,8 +1,6 @@
 .navbar {
-  /* background-color:#0a0a0a; */
-  /* background-color: #0e0e0e; */
   background-color: #161527;
-  width:100vw;
+  width: 100vw;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -12,7 +10,7 @@
   position: sticky;
   top: 0;
   z-index: 9999;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
   user-select: none;
 }
 
@@ -22,23 +20,19 @@
   align-items: center;
   width: 100%;
   height: 80px;
-  /* max-width: 1500px; */
   max-width: vw;
   max-height: vh;
 }
 
 .nav-logo {
-   /* color: #256ce1;  */
-   /* color: #ff8177; 
-   background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100% ); */
-   background: rgb(87,123,221);
-   background: linear-gradient(90deg, rgba(87,123,221,1) 0%, rgba(252,125,33,1) 46%,  rgba(252,125,33,1)  60%);
- 
-   -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-   
+  background: rgb(87, 123, 221);
+  background: linear-gradient(90deg, rgba(87, 123, 221, 1) 0%, rgba(252, 125, 33, 1) 46%, rgba(252, 125, 33, 1) 60%);
+
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
   align-items: center;
   margin-left: 50px;
   cursor: pointer;
@@ -47,10 +41,10 @@
   flex-grow: 1;
 }
 
-#moon_icon{
-  background: rgb(63,94,251);
-  background: linear-gradient(5deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-  background: linear-gradient(0deg, rgba(87,123,221,1) 0%, rgba(252,125,33,1) 26%,  rgba(87,123,221,1)   50%);
+#moon_icon {
+  background: rgb(63, 94, 251);
+  background: linear-gradient(5deg, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  background: linear-gradient(0deg, rgba(87, 123, 221, 1) 0%, rgba(252, 125, 33, 1) 26%, rgba(87, 123, 221, 1) 50%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -58,19 +52,6 @@
   line-height: 50px;
   margin-left: 5rem;
 }
-
-/* .nav-logo:hover {
-  background: rgb(87,123,221);
-  background: linear-gradient(90deg, rgba(87,123,221,1) 0%, rgba(252,125,33,1) 26%,  rgba(252,125,33,1)  40%);
-
-
-
-
-  -webkit-background-clip: text;
-   -moz-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   -moz-text-fill-color: transparent;
-} */
 
 .nav-menu {
   display: flex;
@@ -81,21 +62,14 @@
 
 .nav-links {
 
-
-    /* background-image:linear-gradient(to right, rgb(239, 68, 68), rgb(239, 68, 68), rgb(234, 179, 8))
-    ;
-    
-   -webkit-background-clip: text;
-   -moz-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   -moz-text-fill-color: transparent; */
-   color: #7d7ba6;
+  color: #7d7ba6;
   text-decoration: none;
   font-weight: bold;
   padding: 0.5rem 1rem;
   height: 100%;
   border-bottom: 3px solid transparent;
 }
+
 .fa-code {
   margin-left: 1rem;
 }
@@ -116,59 +90,33 @@
   background: transparent;
   transition: width 0.7s ease, background-color 0.5s ease;
 }
+
 .nav-item:hover {
-  background: rgb(87,123,221);
-  background: linear-gradient(90deg, rgba(87,123,221,1) 0%,rgba(252,125,33,1)  94%);
+  background: rgb(87, 123, 221);
+  background: linear-gradient(90deg, rgba(87, 123, 221, 1) 0%, rgba(252, 125, 33, 1) 94%);
 
 
 
 
   -webkit-background-clip: text;
-   -moz-background-clip: text;
-   -webkit-text-fill-color: transparent;
-   -moz-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .nav-item:hover:after {
   width: 75%;
   margin-left: 15px;
-
-  /* color: wheat; */
-  
-    /* background-image:linear-gradient(to right, #045cff, #fd1d1d, #833ab4); */
-    /* background-image:linear-gradient(to right,  wheat,#7d7ba6, #7d7ba6) */
-    background: rgb(87,123,221);
-    background: linear-gradient(90deg, rgba(87,123,221,1) 0%, rgb(209, 117, 51) 26%,  rgb(219, 127, 61)  40%);
-  
-  
-  
-/*   
-    -webkit-background-clip: text;
-     -moz-background-clip: text;
-     -webkit-text-fill-color: transparent;
-     -moz-text-fill-color: transparent; */
-
+  background: rgb(87, 123, 221);
+  background: linear-gradient(90deg, rgba(87, 123, 221, 1) 0%, rgb(209, 117, 51) 26%, rgb(219, 127, 61) 40%);
 }
 
-#homelist:hover:after{
+#homelist:hover:after {
   width: 60%;
 }
 
 .nav-item .active {
-  
-  /* color: #256ce1; */
-  /* color: #d0ff00;  */
-  /* color: #ff8177; 
-  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100% ); */
   color: wheat;
-  /* color: #fe3b6f; */
-  /* background-image: linear-gradient(to top, #ff087b 0%, #ed1a52 100%); */
-  /* background-image:linear-gradient(to right, #045cff, #46db19, #833ab4); */
-  /* -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent; */
-
 }
 
 .nav-icon {
@@ -189,25 +137,19 @@
   }
 
   .nav-menu.active {
-    background:#0c111c;
+    background: #0c111c;
     border-radius: 10px;
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
   }
+
   .nav-item .active {
-    /* color: #256ce1; */
-    /* color: #d0ff00;  */
-    /* color: #ff8177; 
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100% );
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent; */
     color: wheat;
     border: none;
   }
+
   .nav-links {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -223,14 +165,6 @@
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    /* color: #256ce1; */
-    /* color: #d0ff00;  */
-    /* color: #ff8177; 
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100% );
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent; */
     color: wheat;
   }
 }

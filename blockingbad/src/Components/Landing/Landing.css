@@ -1,12 +1,11 @@
 .landContainer {
     display: flex;
     flex-wrap: wrap;
-    height:79vh;
+    height: 79vh;
 }
 
-.lotti_container{
+.lotti_container {
     position: relative;
-    /* background-color: #39376c; */
     background-image: url(../../assets/blob.svg);
     background-position: 18px;
     background-repeat: no-repeat;
@@ -22,8 +21,7 @@
     margin: auto;
     border-radius: 50px;
     position: relative;
-    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    box-shadow: 5px 5px 30px 7px rgba(0, 0, 0, 0.25), -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
     block-size: fit-content;
     transition: all;
     transition-duration: 0.5s;
@@ -47,10 +45,8 @@
 .landImgSection {
     width: 35vw;
     margin-top: 4em;
-    /* border-top: 2px solid #39376c; */
     margin-left: 5em;
     height: 70vh;
-    /* border-right: 2px solid #39376c; */
 }
 
 .landHeading h1 {

@@ -1,23 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import lottie from "lottie-web";
-// import { Link } from "react-router-dom";
-// import { HashLink } from "react-router-hash-link";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import "./Navbar.css";
 
 export default function Navbar() {
   const [click, setClick] = useState(false);
   const container = useRef(null);
-
-  // useEffect(() => {
-  //   lottie.loadAnimation({
-  //     container: container.current,
-  //     renderer: 'svg',
-  //     loop: true,
-  //     autoplay: true,
-  //     animationData: require('./tick.json')
-  //   })
-  // }, [])
 
   const handleClick = () => setClick(!click);
 
@@ -30,9 +18,7 @@ export default function Navbar() {
           <a  className="nav-logo" style={{maxWidth:"450px"}} onClick = {()=>{
             scroll.scrollToTop()
           }}>
-            <h3>BlockingBad</h3>
-            {/* <i className="fas fa-code"></i> */}
-           
+            <h3>BlockingBad</h3>           
           </a>
         
 
