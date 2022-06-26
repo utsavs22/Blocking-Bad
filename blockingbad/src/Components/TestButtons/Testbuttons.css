@@ -17,7 +17,6 @@
     display: grid;
     grid-template-columns: repeat(3, 14vw);
     justify-content:space-between;
-    /* background-color: green; */
     width: 50vw;
     gap: 0px 100px;
     color: wheat;
@@ -105,7 +104,7 @@ button:nth-child(3):hover{
 
 /*instagram button*/
 button:nth-child(4){
-    background:url(../../assets/discord_white.png) no-repeat;
+    background:url(../../assets/insta_white.png) no-repeat;
     align-items: center;
     justify-content: center;
     background-size: 45px;
@@ -113,7 +112,7 @@ button:nth-child(4){
     border:none;
 }
 button:nth-child(4):hover{
-    background:url(../../assets/discord_color.png) no-repeat;
+    background:url(../../assets/insta_color.png) no-repeat;
     align-items: center;
     justify-content: center;
     background-size: 45px;
@@ -129,7 +128,7 @@ button:nth-child(4):hover{
 
 /*prime video button*/
 button:nth-child(5){
-    background:url(../../assets/discord_white.png) no-repeat;
+    background:url(../../assets/prime_white.png) no-repeat;
     align-items: center;
     justify-content: center;
     background-size: 45px;
@@ -137,7 +136,7 @@ button:nth-child(5){
     border:none;
 }
 button:nth-child(5):hover{
-    background:url(../../assets/discord_color.png) no-repeat;
+    background:url(../../assets/prime_color.png) no-repeat;
     align-items: center;
     justify-content: center;
     background-size: 45px;
@@ -153,7 +152,7 @@ button:nth-child(5):hover{
 
 /*hotstar button*/
 button:nth-child(6){
-    background:url(../../assets/discord_white.png) no-repeat;
+    background:url(../../assets/hotstar_white.png) no-repeat;
     align-items: center;
     justify-content: center;
     background-size: 45px;
@@ -161,7 +160,7 @@ button:nth-child(6){
     border:none;
 }
 button:nth-child(6):hover{
-    background:url(../../assets/discord_color.png) no-repeat;
+    background:url(../../assets/hotstar_color.png) no-repeat;
     align-items: center;
     justify-content: center;
     background-size: 45px;
@@ -177,7 +176,7 @@ button:nth-child(6):hover{
 
 /*netflix button*/
 button:nth-child(7){
-    background:url(../../assets/discord_white.png) no-repeat;
+    background:url(../../assets/netflix_white.png) no-repeat;
     align-items: center;
     justify-content: center;
     background-size: 45px;
@@ -185,7 +184,7 @@ button:nth-child(7){
     border:none;
 }
 button:nth-child(7):hover{
-    background:url(../../assets/discord_color.png) no-repeat;
+    background:url(../../assets/netflix_color.png) no-repeat;
     align-items: center;
     justify-content: center;
     background-size: 45px;
@@ -201,18 +200,18 @@ button:nth-child(7):hover{
 
 /*voot button*/
 button:nth-child(8){
-    background:url(../../assets/discord_white.png) no-repeat;
+    background:url(../../assets/voot_white.png) no-repeat;
     align-items: center;
     justify-content: center;
-    background-size: 45px;
+    background-size: 50px;
     cursor:pointer;
     border:none;
 }
 button:nth-child(8):hover{
-    background:url(../../assets/discord_color.png) no-repeat;
+    background:url(../../assets/voot_color.png) no-repeat;
     align-items: center;
     justify-content: center;
-    background-size: 45px;
+    background-size: 50px;
     cursor:pointer;
     border:none;
 }
@@ -225,18 +224,18 @@ button:nth-child(8):hover{
 
 /*sony liv button*/
 button:nth-child(9){
-    background:url(../../assets/discord_white.png) no-repeat;
+    background:url(../../assets/sonyliv_white.png) no-repeat;
     align-items: center;
     justify-content: center;
-    background-size: 45px;
+    background-size: 40px;
     cursor:pointer;
     border:none;
 }
 button:nth-child(9):hover{
-    background:url(../../assets/discord_color.png) no-repeat;
+    background:url(../../assets/sonyliv_color.png) no-repeat;
     align-items: center;
     justify-content: center;
-    background-size: 45px;
+    background-size: 40px;
     cursor:pointer;
     border:none;
 }

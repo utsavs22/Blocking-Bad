@@ -18,11 +18,11 @@ function About() {
             <br/>
             <b className='number_color'>4.</b> Unzip the file at any place on your pc.
             <br/>
-            <b className='number_color'>5.</b> Now go to "Manage Extensions" of chrome and select "Load Unpacked" at top left corner of the page.
+            <b className='number_color'>5.</b> Now go to "<i><b>Manage Extensions</b></i>" of chrome and select "<i><b>Load Unpacked</b></i>" at top left corner of the page.
             <br/>
             <b className='number_color'>6.</b> Now navigate to the zipped file and select it.
             <br/>
-            <b className='number_color'>7.</b> Start the extension and volla !! It's done.
+            <b className='number_color'>7.</b> Switch on the extension and volla !! It's done.
            </p>
         </div>
     </div>
