@@ -3,7 +3,10 @@ import "./About.css"
 
 function About() {
   return (
-    <div id = "about">
+    <div id="about">
+      <div id="heading_how_div">
+        <h1 id="heading_how">How to use</h1>
+      </div>
         <div className='how_to_use' > 
            <p className='text_how_to_uses'>
             <b className='number_color'>1.</b> Select the websites you want to block in the "<i><b>Select Websites to Block</b></i>" section of the website.

@@ -57,7 +57,7 @@ export default function Navbar() {
         offset={50} 
         duration={500} 
         className="nav-links">
-            About
+            How To Use
         </Link>
             </li>
 
@@ -71,7 +71,7 @@ export default function Navbar() {
         offset={50} 
         duration={500} 
         className="nav-links">
-            Download
+            Block
         </Link>
             </li>
             <li className="nav-item">

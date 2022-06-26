@@ -13,6 +13,7 @@
   top: 0;
   z-index: 9999;
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  user-select: none;
 }
 
 .nav-container {
@@ -48,13 +49,14 @@
 
 #moon_icon{
   background: rgb(63,94,251);
-background: linear-gradient(5deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-background: linear-gradient(0deg, rgba(87,123,221,1) 0%, rgba(252,125,33,1) 26%,  rgba(87,123,221,1)   50%);
--webkit-background-clip: text;
--moz-background-clip: text;
--webkit-text-fill-color: transparent;
--moz-text-fill-color: transparent;
-line-height: 50px;
+  background: linear-gradient(5deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  background: linear-gradient(0deg, rgba(87,123,221,1) 0%, rgba(252,125,33,1) 26%,  rgba(87,123,221,1)   50%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  line-height: 50px;
+  margin-left: 5rem;
 }
 
 /* .nav-logo:hover {

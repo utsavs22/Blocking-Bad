@@ -6,6 +6,12 @@
     align-items: center;
     justify-content: center;
 }
+#buttons_heading{
+    color: wheat;
+    position: relative;
+    top:13rem;
+    left: 1rem;
+}
 .buttons{
     margin-top: 15em;
     display: grid;
@@ -304,6 +310,7 @@ button:nth-child(9):hover{
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
+    margin-left: 1.5rem;
 }
 #create_download:hover{
     background: linear-gradient(90deg, rgb(219, 127, 61) 0%, rgb(209, 117, 51) 26%,  rgba(87,123,221,1)  40%);

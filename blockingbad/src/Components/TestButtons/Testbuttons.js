@@ -186,12 +186,9 @@ function Testbuttons() {
 
   return (
     <div className='button_page' style={{marginTop:"30px"}} id = "download">
-        {/* <style>
-            {`
-              .white {color:white}
-              .orange {color:orange}
-            `}
-          </style> */}
+      <div id="button_page_heading">
+        <h1 id="buttons_heading">Select Websites to Block</h1>
+      </div>
         <div className='buttons'>
         
             <button onClick={() => add_web(0,"youtube")}><p className = {classname0} id="you">Youtube</p></button>
