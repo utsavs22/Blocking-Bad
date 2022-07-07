@@ -1,3 +1,5 @@
+//this file keeps on updating as per the user choices. The elements in the array 'arr' are just values taken last time from the user
+
 let arr = ["facebook","primevideo","djfiwefb"]
 
         function makeHTML(){
